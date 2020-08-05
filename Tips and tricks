@@ -1,0 +1,20 @@
+Pushing to a branch
+to see what branch u are in use the command  "git status" in terminal
+to see all the branch "git branch --list"
+change to a branch git checkout "name"
+"git branch" checks the branch you are in and other branches
+to create a branch git checkout -b "name" which will create a brach and also change it to that branch
+to create a commit to a branch git commit -m 'name'
+to push into the branch git push --set-upstream origin 'name'
+//
+
+to add to the repository
+git init
+git add name
+git commit -m "name"
+git remote add origin git@github.com:etc
+git push -u origin master
+
+to push to a existing repository
+git remote add origin git@github.com:JamesmdLow/Github.git
+git push -u origin master
